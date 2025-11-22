@@ -1,0 +1,465 @@
+@font-face {
+  font-family: 'SupercellHeadlineHeavy';
+  src: url('/fonts/supercellheadline-heavy.woff2') format('woff2'),
+       url('/fonts/supercellheadline-heavy.woff') format('woff'),
+       url('/fonts/supercellheadline-heavy.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+    
+}
+
+body{
+    margin: 0px;
+}
+
+.head{
+    width: 80%;
+    height: 78px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    
+    
+}
+#headimage{
+    height: 47px;
+    margin-left: 2%;
+}
+#section1{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    
+}
+.headerlist{
+    color: rgb(125, 125, 125);
+    display: flex;
+    gap: 50px;
+    font-size: 15px;
+    list-style: none;
+    font-family: SupercellText-Medium, Helvetica, Arial, sans-serif;
+    
+}
+.lists:hover{
+    color:white ;
+}
+.image{
+    width: 80px;
+    height: 25px;
+    margin-left: 0px;
+
+    
+    
+}
+#imgdiv{
+    margin-left: 356px;
+}
+.image:hover{
+    filter: brightness(0) invert(1);
+
+}
+
+
+#section2{
+    height: 520px;
+    width: 100%;
+    background-image: url(./hero_bg_clashofclans_.fae7c799\ \(1\).webp);
+    background-size: 100% 100%;
+    
+
+}
+#section3{
+    height: 500px;
+    width: 100%;
+}
+#div1{
+    width: 70%;
+    height: 90px;
+
+
+}
+#div1img{
+    width: 788px;
+    margin-left: -202px;
+    margin-top: 63px;
+}
+#div2{
+    width: 500px;
+    height: 302px;
+    margin-left: 720px;
+
+    
+
+}
+#div2head{
+    
+    font-family: SupercellHeadline-Heavy, sans-serif;;
+    font-size: 34px;
+    font-weight: bold;
+    margin-left: 0px;
+    height: 42px;
+    width: 530px;
+}
+#ptag1{
+
+font-size: 20px;
+    font-family: SupercellHeadline-Heavy, sans-serif;;
+width: 575px;
+height: 170px;
+font: weight 300px;;
+display: flex;
+justify-content: space-between;
+
+}
+.app{
+    display: flex;
+    height: 50px;
+    width: 170px;
+    margin-left: 725px;
+   gap: 7px;
+   margin-top: -50px;
+
+}
+#section4{
+    width: 100% ;
+    height: 90px ;
+}
+#section4h1{
+    font-size: 34px;
+    display: flex;
+   font-family: SupercellHeadline-Heavy,sans-serif;
+   font-weight: bold;
+   margin-left: 540px;
+   
+}
+#section5{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    margin-left: 28px;
+}
+.section5img{
+    height: 350px;
+    width: 580px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 90px;
+}
+#p1{
+    color:black;
+    font-family: SupercellText-Medium,Helvetica,Arial,sans-serif;
+    font-size: 20PX;
+    font: weight 520PX;;
+    margin-left: 106PX;
+    margin-top: 0px;
+    
+}
+#heading1{
+    color: #fB4A9D;
+    height: 22px;
+     font-family: SupercellText-Bold, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 288PX;
+}
+#heading2{
+    color: #fB4A9D;
+    height: 22px;
+     font-family: SupercellText-Bold, Helvetica, Arial, sans-serif;
+font-weight: bold;
+font-size:14px;
+margin-left: 285px;
+}
+#p2{
+     font-family: SupercellText-Bold, Helvetica, Arial, sans-serif;
+font-size: 20px;
+font-weight: 520px;
+margin-left: 160px;
+margin-top: 0%;
+}
+#button1{
+     font-family: SupercellText-Bold, Helvetica, Arial, sans-serif;
+background-color: #2d85f3;
+height: 45px;
+width: 215px;
+display: flex;
+align-items: center;
+padding: 14px 24px;
+color: white;
+border-radius: 8px;
+border-color: white;
+margin-top: -78px;
+
+
+}
+#buttondiv{
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+
+}
+#section6{
+    width: 100%;
+    height: 620px;
+    background-image: url(./dfb634de-dfd7-40b8-973a-3a456eca0bfc.jpg);
+    background-size: 100% 100%;
+    margin-top: 25px;
+    overflow: hidden;
+}
+#section6img{
+    height: 460px;
+    margin-top: 62px;
+    margin-left: 900px;
+}
+#section6h1{
+    font-family: SupercellText-Regular,Helvetica,Arial,sans-serif;
+    color: white;
+    font-size: 34px;
+    font-weight: bold;
+    
+    
+
+}
+#section6p{
+    font-size: 19px;
+    width: 35%;
+    font-family:SupercellText-Regular,Helvetica,Arial,sans-serif; 
+    color: white;
+
+}
+#sctn6h3{
+    font-family: SupercellText-Bold, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    color: white;
+}
+.divv6{
+    margin-top: -390px;
+    margin-left: 176px;
+}
+.sntn6img{
+    height: 35px;
+    width: 540px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+.img6{
+    height:25px ;
+
+    justify-items: center;
+
+
+}
+#section7{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    margin-top: 133px;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+#sntn7img{
+    width: 45%;
+    height: 100px;
+    border: gray;
+    border-radius:9px ;
+}
+#img11{
+    height: 300px;
+    width: 100%;
+}
+#img22{
+    height: 300px;
+    width: 100%;
+}
+#h17{
+    color: #2d85f3;
+    font-family: SupercellText-Medium, Helvetica, Arial, sans-serif;;
+    font-size: 15px;
+    align-items: center;
+    margin-left: 15px;
+}
+#h17:hover{
+    color: grey;
+    
+}
+#section7div{
+    height: 84px;
+    display: flex;
+    align-items: center;
+box-shadow: 0 4px 12px rgb(0, 0, 0,0.05);
+}
+#youtube1{
+    height: 23px;
+    width: 90px;
+    margin-left: 255px;
+}
+#section7div2{
+    height: 84px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 12px rgb(0, 0, 0,0.05);
+    
+
+}
+#youtube2{
+    height: 23px;
+    width: 90px;
+    margin-left: 206px;
+}
+#h12{
+    color: #2d85f3;
+    font-family: SupercellText-Medium, Helvetica, Arial, sans-serif;;
+font-size: 15px;
+align-items: center;
+margin-left: 15px;
+}
+#h12:hover{
+    color: gray;
+}
+#section8{
+    height: 190px;
+    width: 100%;
+    
+}
+#section8div{
+    height: 200px;
+    width: 100%;
+    background-color:#245fc6;
+}
+#stn8h1{
+    font-family: SupercellHeadline-Heavy,sans-serif;
+    color: white;
+    font-size: 34px;
+    font-weight: bolder;
+    
+
+}
+#button8{
+    background-color: white;
+    height: 44px;
+    width: 176px;
+     font-family: SupercellText-Bold, Helvetica, Arial, sans-serif;
+font-size: 13px;
+font-weight: 700;
+padding: 1em 1.5em;
+border-radius: 8px;
+border-color: white;
+margin-left: 135px;
+
+
+
+}
+#img8{
+    height: 243px;
+    float: right;
+    margin-top: -191px;
+    margin-right: 130px;
+}
+#div8{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 265px;
+
+    
+}
+.section9{
+    height: 470px;
+    width: 100%;
+    background-color: black;
+    
+}
+#div1in9{
+    height: 61px;
+    width: 60%;
+    
+    padding: 35px;
+    margin-left: 105px;
+    
+
+
+}
+#h39{
+color: white;
+    font-family: SupercellText-Medium, Helvetica, Arial, sans-serif;;
+    height: 17px;
+    margin-top: 5%;
+    font-size: 16px;
+    font-weight: lighter;
+
+}
+.footerlogo{
+    height: 20px;
+    
+ justify-content: space-between;
+ 
+}
+#logoo{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 27px;
+    
+}
+
+.stn9imgs{
+    display: flex;
+    height: 50px;
+    float: right;
+    position: relative;
+    top: -53px;
+    left: 319px;
+    margin-left: 10px;
+      
+    
+}
+.lists9{
+    color: #fdfbfb;
+    display: flex;
+    list-style: none;
+    gap: 24px;
+    font-size: 13px;
+    font-family:SupercellText-Medium, Helvetica, Arial, sans-serif; ;
+    margin-left: 109px;
+    
+    
+}
+#lists9div{
+    margin-top: 55px;
+    
+}
+#hr1{
+    width: 80%;
+    font-weight: lighter;
+    color: gray;
+    
+}
+#addressdiv{
+    height: 55px;
+    width: 60%;
+    margin-left: 146px;
+    
+}
+.address2{
+    color: gray;
+    font-size: 16px;
+    margin: 2px;
+    
+}
+#logo9{
+    height: 47px;
+    float: right;
+    margin-right:-420px;
+    margin-top: -80px;
+    
+}
+
+    
